@@ -1,23 +1,33 @@
-## Laravel PHP Framework
+## Jiro
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
-
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
-
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+Is a e-commerce framework based on Laravel although built from framwork-agnostic PHP packages. Our paradigm is based around the principal that e-commerce requirements are very unique to each case and a modular approach give syou leverage in this space.
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+Very early stages of development, we are looking for significant community participation, e-commerce is currently a large void in the PHP ecosphere. This project envisions filling that gap, lend us a hand and become part of something big while we are at ground zero. Please contact <andrewmclagan@gmail.com> if you would like to become a **core** contributer. 
 
-### License
+Currently all development is being done on `jiro-commerce/jiro` and packages will be in `./jiro/package-name` folders through to `0.2.0` as its easier. There after we will split out all packages into their own repositories.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+We are following the **PSR-2** coding style guide strictly.
+
+## Roadmap
+
+#### 0.1.0
+
+* Basic entities (products, orders, promotions etc)
+* Basic backend administration (auth, cms, entitiy CRUD)
+* Basic frontend with no themeing abilities
+
+#### 0.2.0
+
+* Variable products
+* Backend framework basics (an API for hooking new entities and CRUD operations)
+* Frontend theming framework
+
+#### 0.3.0
+
+* TBA
+
+## License
+
+Jiro is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
