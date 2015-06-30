@@ -1,4 +1,4 @@
-## Jiro
+## Jiro [Gitter](https://gitter.im/Jiro-Commerce?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
 Is an e-commerce framework based on Laravel and built from framwork-agnostic PHP packages. Our paradigm is based around the principal that e-commerce requirements are very unique to each use-case and a modular approach gives developers the leverage they need to address their applications requirements. 
 
