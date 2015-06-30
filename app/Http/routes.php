@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+	//$admin = App::make('admin');
+
+	//return view('welcome');
 });

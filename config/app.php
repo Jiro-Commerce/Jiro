@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY', '87IGZ08fhC6QCiYmLzWbr9XfnTj9IAX7'),
+    'key' => env('APP_KEY', 'YourUniqueCrypticKeyShouldGoHere'),
 
     'cipher' => 'AES-256-CBC',
 
@@ -141,6 +141,7 @@ return [
          * Jiro Service Providers...
          */
         Jiro\Product\ProductServiceProvider::class,
+        Jiro\Admin\AdminServiceProvider::class,
 
         /*
          * Application Service Providers...

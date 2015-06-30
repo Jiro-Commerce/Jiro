@@ -10,23 +10,30 @@ Currently all development is being done on `jiro-commerce/jiro` and packages wil
 
 We are following the **PSR-2** coding style guide strictly.
 
+Browse the issues and comment on anything you intend to work on so there is no crossover. We will setup a gitter channell ASAP.
+
 ## Roadmap
 
 #### 0.1.0
 
 * Basic entities (products, orders, promotions etc)
 * Basic backend administration (auth, cms, entitiy CRUD)
+* Basic extension system, ability to add packages to admin 
 * Basic frontend with no themeing abilities
 
 #### 0.2.0
 
-* Variable products
-* Backend framework basics (an API for hooking new entities and CRUD operations)
-* Frontend theming framework
+* Variable products (EAV pattern)
+* Product attributes (EAV pattern)
+* Promotions
+* Grid / table system for displaying lists of entity data
+* Themeing system (back and frontend)
+* Split packages into individual repositories
 
 #### 0.3.0
 
 * TBA
+
 
 ## License
 
