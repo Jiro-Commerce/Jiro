@@ -1,10 +1,10 @@
 ## Jiro
 
-Is a e-commerce framework based on Laravel although built from framwork-agnostic PHP packages. Our paradigm is based around the principal that e-commerce requirements are very unique to each case and a modular approach give syou leverage in this space.
+Is an e-commerce framework based on Laravel and built from framwork-agnostic PHP packages. Our paradigm is based around the principal that e-commerce requirements are very unique to each use-case and a modular approach gives developers the leverage they need to address their applications requirements. 
 
 ## Contributing
 
-Very early stages of development, we are looking for significant community participation, e-commerce is currently a large void in the PHP ecosphere. This project envisions filling that gap, lend us a hand and become part of something big while we are at ground zero. Please contact <andrewmclagan@gmail.com> if you would like to become a **core** contributer. 
+Very early stages of development, we are looking for significant community participation. We believe the current PHP e-commerce offerings are lacking and present a void in the PHP ecosphere. This project envisions filling that gap, lend us a hand and become part of something big while we are at ground zero. Please contact <andrewmclagan@gmail.com> if you would like to become a **core** contributer. Otherwise submit pull-requests to the master branch.
 
 Currently all development is being done on `jiro-commerce/jiro` and packages will be in `./jiro/package-name` folders through to `0.2.0` as its easier. There after we will split out all packages into their own repositories.
 
