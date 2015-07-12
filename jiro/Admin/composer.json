@@ -8,14 +8,10 @@
 		}
 	],
 	"require": {
-		"php": ">=5.6.0",
-		"jiro/support": "dev-master"
+		"php": ">=5.6.0"
 	},
     "require-dev": {
-        "phpspec/phpspec": "~2.1",
-        "phpunit/phpunit": "4.5.*",
-        "laravel/laravel": "~5.0",
-        "laracasts/testdummy": "~2.0"        
+        "phpunit/phpunit": "~4.7"
     },  	
 	"autoload": {
 		"psr-4": {
