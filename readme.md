@@ -1,4 +1,4 @@
-## Jiro [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Jiro-Commerce/Jiro?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge)
+## Jiro [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Jiro-Commerce/Jiro?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge) [![Build Status](https://travis-ci.org/Jiro-Commerce/Jiro.svg)](https://travis-ci.org/Jiro-Commerce/Jiro)
 
 Is an e-commerce framework based on Laravel and built from framwork-agnostic PHP packages. Our paradigm is based around the principal that e-commerce requirements are very unique to each use-case and a modular approach gives developers the leverage they need to address their applications requirements. 
 
