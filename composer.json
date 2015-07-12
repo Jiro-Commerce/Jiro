@@ -21,7 +21,8 @@
         "psr-4": {
             "App\\": "app/",
             "Jiro\\Admin\\": "jiro/Admin/src",
-            "Jiro\\Installer\\": "jiro/Installer/src"
+            "Jiro\\Installer\\": "jiro/Installer/src",
+            "Jiro\\Product\\": "jiro/Product/src"
         }
     },
     "autoload-dev": {

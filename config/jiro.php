@@ -4,17 +4,16 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Extensions Paths
+    | Extensions
     |--------------------------------------------------------------------------
     |
-    | Define path(s) to your extensions, you may define as many paths as you wish.
-    | Be aware that later definitions will overide previous extensions.
+    | Add namespace to your Extension class. All extensions must extend the Jiro\Admin\Extension\Extension class.
+    | See the Jiro\Admin\Extension\Extensible interface for more details.
     |
     */
-   
-    'paths' => [
-        __DIR__ . '/../app',
-        __DIR__ . '/../jiro'
+
+    'extensions' => [
+        Jiro\Product\Extension::class,
     ],
 
 ];

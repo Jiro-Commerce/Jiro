@@ -1,0 +1,27 @@
+{
+	"name": "jiro/admin",
+	"description": "Jiro Admin",
+	"authors": [
+		{
+			"name": "Andrew McLagan",
+			"email": "andrewmclagan@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.6.0",
+		"jiro/support": "dev-master"
+	},
+    "require-dev": {
+        "phpspec/phpspec": "~2.1",
+        "phpunit/phpunit": "4.5.*",
+        "laravel/laravel": "~5.0",
+        "laracasts/testdummy": "~2.0"        
+    },  	
+	"autoload": {
+		"psr-4": {
+			"Jiro\\Admin\\": "./src"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}

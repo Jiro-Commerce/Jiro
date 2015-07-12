@@ -13,11 +13,5 @@
 
 Route::get('/', function () {
 
-	//$admin = App::make('jiro.admin')->boot();
-
-	dd(App::make('jiro.extensions')->all());
-
-	echo 'Welcome';
-
-	//return view('welcome');
+	return view('welcome');
 });
