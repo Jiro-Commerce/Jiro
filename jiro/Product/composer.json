@@ -1,0 +1,30 @@
+{
+	"name": "jiro/product",
+	"description": "Jiro product extension.",
+	"authors": [
+		{
+			"name": "Andrew McLagan",
+			"email": "andrewmclagan@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.6.0",
+		"jiro/core": "~0.1.0"
+	},
+    "require-dev": {
+        "phpunit/phpunit": "~4.7",
+        "laravel/laravel": "~5.1"
+    },  	
+	"autoload": {
+		"psr-4": {
+			"Jiro\\Product\\": "./src"
+		}
+	},
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },		
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}

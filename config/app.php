@@ -140,7 +140,8 @@ return [
         /*
          * Jiro Service Providers...
          */
-        Jiro\Admin\AdminServiceProvider::class,      
+        Jiro\Core\CoreServiceProvider::class,    
+        Jiro\Product\ProductServiceProvider::class,
 
         /*
          * Application Service Providers...

@@ -1,6 +1,6 @@
 <?php namespace Jiro\Product;
 
-use Jiro\Admin\Extension\Extension as BaseExtension;
+use Jiro\Core\Extension\Extension as BaseExtension;
 
 /**
  * Product extension provider.
@@ -34,3 +34,4 @@ class Extension extends BaseExtension
         // ...
     }    
 }
+
