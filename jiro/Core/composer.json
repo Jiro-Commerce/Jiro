@@ -1,0 +1,29 @@
+{
+	"name": "jiro/core",
+	"description": "Jiro core extension.",
+	"authors": [
+		{
+			"name": "Andrew McLagan",
+			"email": "andrewmclagan@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.6.0"
+	},
+    "require-dev": {
+        "phpunit/phpunit": "~4.7",
+        "laravel/laravel": "~5.1"
+    },  	
+	"autoload": {
+		"psr-4": {
+			"Jiro\\Core\\": "src"
+		}
+	},
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },	
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
